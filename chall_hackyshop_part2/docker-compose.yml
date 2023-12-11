@@ -1,0 +1,10 @@
+#docker-compose.yml
+version: '3.3'
+
+services:
+    hackyshop_part2:
+        image: registry.hackynov.fr/chall_hackyshop_part2
+        container_name: container_hackyshop_part2
+        ports:
+            - "15112:80"
+        tty: true
