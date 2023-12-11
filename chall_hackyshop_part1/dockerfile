@@ -1,0 +1,6 @@
+FROM php:8.0-apache
+COPY hackyshop /var/www/html
+RUN chmod -R 757 /var/www/html/
+RUN apt-get update -yq
+RUN apt-get install swaks -y
+RUN apt-get install sendmail -y

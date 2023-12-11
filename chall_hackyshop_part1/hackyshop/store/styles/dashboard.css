@@ -1,0 +1,173 @@
+/*
+========================
+        HEADER
+========================
+*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    color: white;
+    box-shadow: 0px 7px 25px 5px #242424;
+}
+
+header .header-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .header-title h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+header .header-title .header-logo {
+    background-image: url("../../img/picto-blanc.png");
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+header .header-title .h1-span {
+    color: #FF0068;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav .header-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
+
+header nav .header-menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    margin: 0 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav .header-menu li a:hover {
+    text-decoration: underline;
+}
+
+header nav .header-login {
+    padding: 0 10px;
+    list-style: none;
+}
+
+header nav .header-login li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav .header-login li a:hover {
+    text-decoration: underline;
+}
+
+
+/*
+========================
+        LOGIN
+========================
+*/
+
+form {
+    width: 300px;
+    border-radius: 20px;
+    padding: 5px 20px 20px 20px;
+    margin: 300px auto 0 auto;
+    box-shadow: 0px 0px 21px 0px #000000;
+}
+
+.text {
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+/*
+========================
+        SUCCESS
+========================
+*/
+
+.success {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15% 0;
+    text-align: center;
+}
+
+.success .other-success {
+    color: #FF0068;
+}
+
+
+
+
+/*
+========================
+         ADMIN
+========================
+*/
+
+h1.admin-user-title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 80px;
+}
+
+table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px auto;
+    border: #FF0068 2px solid;
+}
+
+thead th:nth-child(1) {
+    width: 50px;
+    letter-spacing: 2px;
+    background-color: #FF0068;
+    color: white;
+}
+
+thead th:nth-child(2) {
+    width: 150px;
+    letter-spacing: 2px;
+    background-color: #FF0068;
+    color: white;
+}
+
+thead th:nth-child(3) {
+    width: 300px;
+    letter-spacing: 2px;
+    background-color: #FF0068;
+    color: white;
+}
+  
+td {
+    letter-spacing: 1px;
+}
+  
+tbody td {
+    text-align: center;
+}
+
+tr {
+    line-height: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(206, 206, 206);
+}
